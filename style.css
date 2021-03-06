@@ -5,3 +5,9 @@ h1 h4 {
 body { 
     text-align: center;
 }
+
+.box {
+    padding: 20px 10px 60px 10px;
+    border: solid thick;
+    margin: 40px 40%;
+}
