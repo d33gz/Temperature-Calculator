@@ -1,13 +1,19 @@
-h1 h4 {
+header {
     text-align: center;
+    border: solid thick;
+    margin: 0 20%;
+    color: aqua;
+    background-color: maroon;
 }
 
 body { 
     text-align: center;
+    color: black;
+    background-color: lightcyan;
 }
 
 .box {
     padding: 20px 10px 60px 10px;
-    border: solid thick;
+    border: solid slateblue thick;
     margin: 40px 40%;
 }
