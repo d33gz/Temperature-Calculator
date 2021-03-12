@@ -12,8 +12,18 @@ body {
     background-color: lightcyan;
 }
 
+.container {
+    display: flex;
+}
+
 .box {
     padding: 20px 10px 60px 10px;
     border: solid slateblue thick;
-    margin: 40px 40%;
+    margin: 140px 5%;
+}
+
+.button {
+    width: 25px;
+    height: 25px;
+    margin-top: 200px;
 }
