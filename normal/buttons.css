@@ -1,0 +1,15 @@
+button {
+  height: 5vh;
+  width: 5vw;
+}
+
+.button-box {
+  margin: auto;
+  border: solid slateblue thick;
+  height: 50vh;
+  flex-grow: 2;
+}
+
+.super-button {
+  width: 15vw;
+}

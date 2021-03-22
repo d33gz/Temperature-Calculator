@@ -1,25 +1,35 @@
-header {
-    text-align: center;
-    border: solid thick;
-    margin: 0 20%;
-    color: aqua;
-    background-color: maroon;
-}
-
 body { 
     text-align: center;
     color: black;
     background-color: lightcyan;
 }
 
+header {
+    text-align: center;
+    border: solid thick;
+    margin: 0 20%;
+    color: aqua;
+    background-color: maroon;
+    height: 15vh;
+}
+
+article {
+    height: 75vh;
+}
+
+footer {
+    height: 10vh;
+}
+
 .container {
     display: flex;
+    margin: auto;
 }
 
 .box {
     padding: 20px 10px 60px 10px;
     border: solid slateblue thick;
-    margin: 140px 5%;
+    margin: 140px auto;
 }
 
 .button {
