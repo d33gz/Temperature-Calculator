@@ -14,10 +14,6 @@
 
 <body>
 
-    <article class="box">
-        <?php print_r($_GET['input']);?>
-    </article>
-
     <section class="container">
         <form class="box">
             <label for="input">Input # Here</label>
@@ -30,8 +26,22 @@
                 <option value="Celsius">Celsius</option>
                 <option value="Farenheit">Farenheit</option>
             </select>
-            <input class="button" type="submit" value="=">
         </form> 
+
+        <input class="button" type="submit" value="=">
+
+        <form class="box">
+            <label for="output">Output # Here</label>
+            <br>
+            <input id="output" name="output" type="number">
+            <br>
+            <label for="outgoing">Select your Temperature Scale</label>
+            <select id="outgoing" name="outgoing">
+                <option value="Kelvin">Kelvin</option>
+                <option value="Celsius">Celsius</option>
+                <option value="Farenheit">Farenheit</option>
+            </select>
+        </form>
     </section>
 
 </body>
