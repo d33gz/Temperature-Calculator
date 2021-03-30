@@ -1,48 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Temperature Calculator</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
-</head>
-
-<header>
-    <h1>Temperature Calculator</h1>
-    <h4>designed by Hendo</h4>
-</header>
-
-<body>
-
+  </head>
+  <body>
+    <header>
+      <h1>Temperature Calculator</h1>
+      <h4>designed by Hendo</h4>
+    </header>  
     <section class="container">
-        <form class="box">
-            <label for="input">Input # Here</label>
-            <br>
-            <input id="input" name="input" type="number">
-            <br>
-            <label for="incoming">Select your Temperature Scale</label>
-            <select id="incoming" name="incoming">
-                <option value="Kelvin">Kelvin</option>
-                <option value="Celsius">Celsius</option>
-                <option value="Farenheit">Farenheit</option>
-            </select>
-        </form> 
-
-        <input class="button" type="submit" value="=">
-
-        <form class="box">
-            <label for="output">Output # Here</label>
-            <br>
-            <input id="output" name="output" type="number">
-            <br>
-            <label for="outgoing">Select your Temperature Scale</label>
-            <select id="outgoing" name="outgoing">
-                <option value="Kelvin">Kelvin</option>
-                <option value="Celsius">Celsius</option>
-                <option value="Farenheit">Farenheit</option>
-            </select>
-        </form>
-    </section>
-
-</body>
+      <form class="box">
+        <label for="input">Input # Here</label>
+        <br>
+        <input id="input" name="input" type="number">
+        <br>
+        <label for="scale-in">Select your Temperature Scale</label>
+        <select id="scale-in" name="scale-in">
+            <option value="Kelvin">Kelvin</option>
+            <option value="Celsius">Celsius</option>
+            <option value="Farenheit">Farenheit</option>
+        </select>
+      </form> 
+      <input id="submit" class="button" type="submit" value="=">
+      <form class="box">
+        <label for="output">Output # Here</label>
+        <br>
+        <input id="output" name="output" type="number">
+        <br>
+        <label for="scale-out">Select your Temperature Scale</label>
+        <select id="scale-out" name="scale-out">
+          <option value="Kelvin">Kelvin</option>
+          <option value="Celsius">Celsius</option>
+          <option value="Farenheit">Farenheit</option>
+        </select>
+      </form>
+    </section>  
+    <script src="./scripts/call.js"></script>
+  </body>
 </html>
